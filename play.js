@@ -1,5 +1,3 @@
-const { constants } = require("buffer");
-const { Socket } = require("dgram");
 const net = require("net");
 
 //establishes a connection with the game server
