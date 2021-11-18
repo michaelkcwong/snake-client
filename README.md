@@ -21,9 +21,9 @@ This project was created and published by me as part of my learnings at Lighthou
 
 - Follow steps inside the snek server repo to run the server side
 - Run the development snake client using the `node play.js` command.
-- `w`: key user input logs "Move: up" upward movement of snake
-- `a`: key user input logs "Move: left" leftward movement of snake
-- `s`: key user input logs "Move: down" downward movement of snake
-- `d`: key user input logs "Move: right" rightward movement of snake
-- `g`: key user input logs "Say: Good Game" saying "Good Game".
-- `ctrl +c`: key user input logs exits snake-client
+- `w`: key user input logs "Move: up" = upward movement of snake
+- `a`: key user input logs "Move: left" = leftward movement of snake
+- `s`: key user input logs "Move: down" = downward movement of snake
+- `d`: key user input logs "Move: right" = rightward movement of snake
+- `g`: key user input logs "Say: Good Game" = saying "Good Game".
+- `ctrl +c`: key user input logs  = exits snake-client
