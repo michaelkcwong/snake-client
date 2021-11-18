@@ -34,6 +34,10 @@ const handleUserInput = function(key) { //check for the ctrl + c input and termi
     connection.write("Move: right"); //move right
   }
 
+  if (key === "g") {
+    connection.write("Say: Good Game") //says good game
+  }
+
   console.log(key)
 };
 
