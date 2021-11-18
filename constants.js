@@ -3,7 +3,7 @@
 const IP = "localhost";
 const PORT = 50541;
 
-module.export = {
+module.exports = {
   IP,
   PORT,
 };
