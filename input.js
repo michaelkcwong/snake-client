@@ -35,10 +35,10 @@ const handleUserInput = function(key) { //check for the ctrl + c input and termi
   }
 
   if (key === "g") {
-    connection.write("Say: Good Game") //says good game
+    connection.write("Say: Good Game"); //says good game
   }
 
-  console.log(key)
+  console.log(key);
 };
 
 module.exports = {
