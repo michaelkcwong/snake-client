@@ -13,7 +13,7 @@ This project was created and published by me as part of my learnings at Lighthou
 
 ## Final Product
 
-!["screenshot description"](#)
+/snake-client/images/snake.png
 !["screenshot description"](#)
 
 
