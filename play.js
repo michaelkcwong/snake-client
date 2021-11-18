@@ -1,0 +1,26 @@
+const { constants } = require("buffer");
+const { Socket } = require("dgram");
+const net = require("net");
+
+//establishes a connection with the game server
+const connect = function() {
+  const conn = net.createConnection({
+    host: "localhost",
+    port: 50541
+  });
+
+  conn.setTimeout(3000);
+  conn.on('timeout', () => {
+    console.log('you ded cuz you idled');
+    conn.end();
+  });
+
+  //interpret incoming data as text
+  conn.setEncoding("utf8");
+
+  return conn;
+};
+
+console.log("Connecting ...");
+connect();
+
