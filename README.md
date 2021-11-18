@@ -13,7 +13,8 @@ This project was created and published by me as part of my learnings at Lighthou
 
 ## Final Product
 
-!["screenshot description"](file:///Users/michaelwong/lighthouse/w5/snake-client/images/snake.png)
+<img width="553" alt="snake" src="https://user-images.githubusercontent.com/69990512/142375102-67a58076-d98d-4cd7-9016-489cc4accadb.png">
+
 
 
 ## Getting Started
