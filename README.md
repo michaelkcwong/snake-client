@@ -4,7 +4,12 @@ Snake game is a very popular video game. It is a video game concept where the pl
 
 This is simply a multiplayer take on the genre.
 
-Before you can run this client, you will need to be running the server side which you can download and install from here. 
+Before you can run this client, you will need to be running the server side which you can download and install from [here](https://github.com/taniarascia/snek). 
+
+## Purpose
+**_BEWARE:_ This library was published for learning purposes. It is _not_ intended for use in production-grade software.**
+
+This project was created and published by me as part of my learnings at Lighthouse Labs.
 
 ## Final Product
 
@@ -16,3 +21,9 @@ Before you can run this client, you will need to be running the server side whic
 
 - Follow steps inside the snek server repo to run the server side
 - Run the development snake client using the `node play.js` command.
+- w: "w" key user input logs "Move: up" upward movement of snake
+- a: "a" key user input logs "Move: left" leftward movement of snake
+- s: "s" key user input logs "Move: down" downward movement of snake
+- d: "d" key user input logs "Move: right" rightward movement of snake
+- d: "g" key user input logs "Say: Good Game" saying "Good Game".
+- ctrl + c: "ctrl +c" key user input logs exits snake-client
