@@ -23,7 +23,7 @@ const connect = function() {
   //   conn.write('Move: up');
   //   conn.write('Move: left');
 
-  // });
+ });
 
   //timer for being idle and prints below
   // conn.setTimeout(5000);
